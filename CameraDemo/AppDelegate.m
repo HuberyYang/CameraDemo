@@ -21,6 +21,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[PhotoCaptureViewController new]];
+    
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     
